@@ -1,5 +1,5 @@
-import Portfolio from './portfolio';
+import Navbar from './Navbar';
 // This could be specialized for server rendering
 // For example, if using React-Router, we'd have the SSR setup here.
 
-export default Portfolio;
+export default Navbar;

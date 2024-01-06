@@ -1,8 +1,8 @@
 import ReactOnRails from 'react-on-rails';
 
-import Portfolio from '../bundles/components/Portfolio/portfolioserver';
-
+import HelloWorld from '../bundles/HelloWorld/components/HelloWorldServer';
+import Navbar from '../bundles/portfolio/components/navbar/NavbarServer';
 // This is how react_on_rails can see the HelloWorld in the browser.
 ReactOnRails.register({
-  Portfolio,
+  HelloWorld, Navbar,
 });
